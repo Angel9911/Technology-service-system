@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C660B32-7D4A-906B-A325-B694B2C2BA79" name="Orders">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-12 16:53:17 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ORDER" id="22D16E33-F664-6CB7-5F24-5B873B593606">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-13 12:30:46 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENT_ID_CLIENT" id="2A645C11-EE90-0BEE-D7EF-E3BBACF72E22">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-16 15:16:07 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="918A2A36-A695-4AE5-1159-5F5C602965A5" referredColumn="0EE94A1A-2356-9EF6-6B2C-88FB4D9B7373"/>
+</associations>
+</Column>
+<Column name="APPLIANCE_ID_APPLIANCE" id="6BF09A6B-3304-BE42-7132-42C04701E05B">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-16 15:22:50 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0FEBA5F-B86B-A269-27CE-6CE9EBC1FAFF" referredColumn="F77544A4-149F-8A69-0698-EC944BBE1C9E"/>
+</associations>
+</Column>
+<Column name="BRAND_ID_BRAND" id="E4E1C758-ACB9-7F1B-BC21-EEB689C9B421">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-16 15:23:19 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="145012AB-57CF-436D-93CF-3A1977004109" referredColumn="3E8E277F-9AC7-7C18-C7E6-73EF6A5D404F"/>
+</associations>
+</Column>
+<Column name="DELIVERY_ID_DELIVERY" id="5136FADA-014D-B6DD-B009-ADB81772956A">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-16 15:29:14 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C47BF52B-B35C-CCC7-1908-5840BD923D63" referredColumn="AD2ABD59-46E4-BDDF-D10E-DAD66D6A0C94"/>
+</associations>
+</Column>
+<Column name="OFFICE_ID_OFFICE" id="7ADC7A4C-06FF-A267-F3E9-19B11D8D7E1B">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-22 11:46:32 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="795F80D7-218D-6102-853C-FD5107831979" referredColumn="B4A4A68D-9EA0-2DBE-F820-79EF44F6DF96"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C22AE9C6-9701-51CD-DCE2-526188BA2152" name="Orders_PK">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-13 12:30:46 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22D16E33-F664-6CB7-5F24-5B873B593606"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="563F97F7-1D79-5BB2-79ED-D758C6CB0B3C" name="Orders_Client_FK">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-16 15:19:21 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A645C11-EE90-0BEE-D7EF-E3BBACF72E22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1001144-EAC2-7FD7-7881-76E3DA1B0F2C" name="Orders_Type_of_appliances_FK">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-16 15:22:50 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BF09A6B-3304-BE42-7132-42C04701E05B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="984E0820-E573-A8A4-C1A0-623117C6BD1E" name="Orders_Type_of_brands_FK">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-16 15:23:19 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4E1C758-ACB9-7F1B-BC21-EEB689C9B421"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D8A2E0A-D89A-0C1B-837F-FA35AFCC3A70" name="Orders_Delivery_FK">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-16 15:29:14 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5136FADA-014D-B6DD-B009-ADB81772956A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FC3AA28-B73E-142D-856F-6298EA6A89EB" name="Orders_Office_FK">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-22 11:47:00 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7ADC7A4C-06FF-A267-F3E9-19B11D8D7E1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

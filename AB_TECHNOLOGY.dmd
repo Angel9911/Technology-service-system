@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AB_TECHNOLOGY" id="E143A777-431A-48A9-E06A-00D622C04E84" version="3.5">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-12 16:52:56 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E143A777-431A-48A9-E06A-00D622C04E84</designId>
+</OSDM_Design>

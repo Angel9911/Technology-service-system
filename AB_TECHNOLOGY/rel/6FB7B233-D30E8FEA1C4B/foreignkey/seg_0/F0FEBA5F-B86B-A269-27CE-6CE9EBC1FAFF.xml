@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F0FEBA5F-B86B-A269-27CE-6CE9EBC1FAFF" containerWithKeyObject="9C660B32-7D4A-906B-A325-B694B2C2BA79" localFKIndex="A1001144-EAC2-7FD7-7881-76E3DA1B0F2C" name="Orders_Type_of_appliances_FK">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-16 15:22:50 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<referredTableLongName>Type_of_appliances</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>457E1414-3F54-C020-B284-1CA14A05A9E3</referredTableID>
+<keyObject>24221A21-CB55-6E75-A749-4818822E1EDD</keyObject>
+<referredKeyID>24221A21-CB55-6E75-A749-4818822E1EDD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_APPLIANCE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

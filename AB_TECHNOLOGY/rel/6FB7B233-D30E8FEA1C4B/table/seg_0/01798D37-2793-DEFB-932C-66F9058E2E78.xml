@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01798D37-2793-DEFB-932C-66F9058E2E78" name="OFFICE_CONSULTANT">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-22 12:11:04 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONSULTANT" id="8D28F4A2-5126-A863-AAA6-3CFEC1CEEDF0">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-22 12:13:33 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION_CITY" id="BB0DC055-1B1A-1DE4-3CD5-9C300B267C89">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-22 12:13:33 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>35 CHAR</dataTypeSize>
+<ownDataTypeParameters>35 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS_OFFICE" id="FF49B810-4D86-0743-A2C2-FD017A48829A">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-22 12:13:33 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>35 CHAR</dataTypeSize>
+<ownDataTypeParameters>35 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFFICE_ID_OFFICE" id="42CF770F-DAA4-34CD-057F-86513ADD46BC">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-22 12:13:33 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C81AAAEF-3457-8300-CB2B-D092EFB48878" referredColumn="B4A4A68D-9EA0-2DBE-F820-79EF44F6DF96"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6BB14969-C241-28A1-56A4-89D927B9BC51" name="OFFICE_CONSULTANT_PK">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-22 12:13:33 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D28F4A2-5126-A863-AAA6-3CFEC1CEEDF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1602E113-D0F6-BC1F-9767-CE48CDF5C513" name="OFFICE_CONSULTANT_Office_FK">
+<createdBy>Angel</createdBy>
+<createdTime>2021-03-22 12:14:33 UTC</createdTime>
+<ownerDesignName>AB_TECHNOLOGY</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42CF770F-DAA4-34CD-057F-86513ADD46BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
